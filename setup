@@ -1,1 +1,7 @@
-git add . && git commit -m "Initial" && git push origin main
+cd flohmarkt-mvp
+git init               # :contentReference[oaicite:19]{index=19}
+git add .
+git commit -m "Initial MVP"
+git branch -M main
+git remote add origin https://github.com/YOUR_USER/flohmarkt-mvp.git
+git push -u origin main
